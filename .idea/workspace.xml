@@ -7,32 +7,6 @@
     <list default="true" id="dbb58a2f-4ac9-4791-84d6-d99aeb90e741" name="Changes" comment="-">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Exception/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exception/Task3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InputOutput/io_nio/BufferedInputOutputStreamCopyEx.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InputOutput/io_nio/BufferedReaderWriterCopyEx.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InputOutput/io_nio/ChannelBufferEx1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InputOutput/io_nio/ChannelBufferEx2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InputOutput/io_nio/DataStreamsEx.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InputOutput/io_nio/FileEx.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InputOutput/io_nio/FileInputOutputStreamCopyEx.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InputOutput/io_nio/FileReaderEx.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InputOutput/io_nio/FileWriterEx.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InputOutput/io_nio/PathAndFilesEx1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InputOutput/io_nio/PathAndFilesEx2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InputOutput/io_nio/PathAndFilesEx3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InputOutput/io_nio/RandomAccessFileEx.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InputOutput/io_nio/SECTION_9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InputOutput/io_nio/WalkFileTreeCopyEx.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InputOutput/io_nio/WalkFileTreeDeleteEx.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InputOutput/io_nio/WalkFileTreeEx.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InputOutput/io_nio/programmer1/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InputOutput/io_nio/programmer1/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InputOutput/io_nio/programmer1/Employee2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InputOutput/io_nio/programmer1/SerializationEx1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InputOutput/io_nio/programmer1/SerializationEx2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InputOutput/io_nio/programmer1/SerializationEx3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InputOutput/io_nio/programmer2/SerializationEx1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InputOutput/io_nio/programmer2/SerializationEx2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InputOutput/io_nio/programmer2/SerializationEx3.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,9 +48,9 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.StackOverflowError">
-    <configuration name="ClassCastExceptionEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exception.ClassCastExceptionEx" />
+  <component name="RunManager" selected="Application.MyExceptionExample">
+    <configuration name="AssertionErrorEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exception.AssertionErrorEx" />
       <module name="InputOutput" />
       <extension name="coverage">
         <pattern>
@@ -88,12 +62,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InputOutput.Example1" />
+    <configuration name="MyExceptionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exception.MyExceptionExample" />
       <module name="InputOutput" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InputOutput.*" />
+          <option name="PATTERN" value="Exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,25 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InputOutput.Example2" />
+    <configuration name="NoSuchMethodErrorEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exception.NoSuchMethodErrorEx" />
       <module name="InputOutput" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InputOutput.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Example3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InputOutput.Example3" />
-      <module name="InputOutput" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="InputOutput.*" />
+          <option name="PATTERN" value="Exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,13 +101,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreadDeathEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exception.ThreadDeathEx" />
+      <module name="InputOutput" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyExceptionExample" />
+        <item itemvalue="Application.NoSuchMethodErrorEx" />
+        <item itemvalue="Application.AssertionErrorEx" />
+        <item itemvalue="Application.ThreadDeathEx" />
         <item itemvalue="Application.StackOverflowError" />
-        <item itemvalue="Application.ClassCastExceptionEx" />
-        <item itemvalue="Application.Example3" />
-        <item itemvalue="Application.Example2" />
-        <item itemvalue="Application.Example1 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +144,7 @@
       <workItem from="1693597943537" duration="2000" />
       <workItem from="1693635457362" duration="4030000" />
       <workItem from="1693641571900" duration="1209000" />
-      <workItem from="1693642819905" duration="2620000" />
+      <workItem from="1693642819905" duration="4124000" />
     </task>
     <task id="LOCAL-00001" summary="-">
       <option name="closed" value="true" />
@@ -196,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693644415349</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="-">
+      <option name="closed" value="true" />
+      <created>1693645732330</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693645732330</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
