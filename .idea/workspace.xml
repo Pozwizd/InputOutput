@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbb58a2f-4ac9-4791-84d6-d99aeb90e741" name="Changes" comment="-">
-      <change afterPath="$PROJECT_DIR$/src/InputOutput/Task7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InputOutput/Text.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exception/ExampleException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exception/ExampleException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exception/MyExceptionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exception/MyExceptionExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exception/TypeExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exception/TypeExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InputOutput/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InputOutput/Example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InputOutput/Task7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InputOutput/Task7.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +49,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DeserializeUsers">
+  <component name="RunManager" selected="Application.Example3">
     <configuration name="DeserializeUsers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InputOutput.DeserializeUsers" />
       <module name="InputOutput" />
@@ -66,21 +63,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ErrorExceptionEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exception.ErrorExceptionEx" />
-      <module name="InputOutput" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Exception.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SerializeUsers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InputOutput.SerializeUsers" />
+    <configuration name="Example1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InputOutput.Example1" />
       <module name="InputOutput" />
       <extension name="coverage">
         <pattern>
@@ -92,8 +76,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InputOutput.Task5" />
+    <configuration name="Example1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InputOutput.Example1" />
       <module name="InputOutput" />
       <extension name="coverage">
         <pattern>
@@ -105,12 +89,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UncheckedExceptionEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exception.UncheckedExceptionEx" />
+    <configuration name="Example2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InputOutput.Example2" />
       <module name="InputOutput" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exception.*" />
+          <option name="PATTERN" value="InputOutput.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Example3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InputOutput.Example3" />
+      <module name="InputOutput" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="InputOutput.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Example3" />
+        <item itemvalue="Application.Example2" />
+        <item itemvalue="Application.Example1 (1)" />
+        <item itemvalue="Application.Example1" />
         <item itemvalue="Application.DeserializeUsers" />
-        <item itemvalue="Application.UncheckedExceptionEx" />
-        <item itemvalue="Application.ErrorExceptionEx" />
-        <item itemvalue="Application.SerializeUsers" />
-        <item itemvalue="Application.Task5" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +143,9 @@
       <workItem from="1693590753472" duration="1599000" />
       <workItem from="1693592401695" duration="3928000" />
       <workItem from="1693597943537" duration="2000" />
-      <workItem from="1693635457362" duration="3517000" />
+      <workItem from="1693635457362" duration="4030000" />
+      <workItem from="1693641571900" duration="1209000" />
+      <workItem from="1693642819905" duration="1215000" />
     </task>
     <task id="LOCAL-00001" summary="-">
       <option name="closed" value="true" />
@@ -156,7 +155,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693583811892</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="-">
+      <option name="closed" value="true" />
+      <created>1693640676070</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1693640676070</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

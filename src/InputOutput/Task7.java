@@ -7,14 +7,13 @@ import java.util.List;
 public class Task7 {
 }
 
-
 class SerializeUsers {
 
     public static void main(String[] args) {
         List<User> users = new ArrayList<>();
 
-        users.add(new User("John", "Smith", 30));
-        users.add(new User("Alice", "Cooper", 25));
+        users.add(new User("Іван", "Петров", 30));
+        users.add(new User("Алексей", "Сидоров", 45));
 
         try {
             FileOutputStream fos = new FileOutputStream("users.bin");
@@ -28,7 +27,6 @@ class SerializeUsers {
     }
 }
 
-// Класс для десериализации
 class DeserializeUsers {
 
     public static void main(String[] args) {
@@ -56,7 +54,6 @@ class DeserializeUsers {
     }
 }
 
-// Класс User
 class User implements Serializable {
 
     private String name;
