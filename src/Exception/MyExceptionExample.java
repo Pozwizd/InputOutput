@@ -1,6 +1,9 @@
 package Exception;
 
 class MyException extends Exception {
+
+    private int age;
+
     public MyException(String message) {
         super(message);
     }
@@ -8,7 +11,7 @@ class MyException extends Exception {
 
 public class MyExceptionExample {
 
-    public static void validate(int age) throws MyException {
+    public static void check(int age) throws MyException {
         if(age < 0) {
             throw new MyException("Возраст не может быть отрицательным");
         }
@@ -16,7 +19,7 @@ public class MyExceptionExample {
 
     public static void main(String[] args) {
         try {
-            validate(-5);
+            check(-5);
         } catch (MyException e) {
             System.out.println(e.getMessage());
         }

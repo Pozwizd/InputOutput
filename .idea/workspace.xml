@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbb58a2f-4ac9-4791-84d6-d99aeb90e741" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InputOutput.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exception/Task3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exception/TypeExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="dbb58a2f-4ac9-4791-84d6-d99aeb90e741" name="Changes" comment="-">
+      <change afterPath="$PROJECT_DIR$/src/InputOutput/Task7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exception/ExampleException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exception/ExampleException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exception/MyExceptionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exception/MyExceptionExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exception/TypeExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exception/TypeExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InputOutput/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InputOutput/Example.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,9 +52,22 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ClassCastExceptionEx">
-    <configuration name="ArithmeticExceptionEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exception.ArithmeticExceptionEx" />
+  <component name="RunManager" selected="Application.DeserializeUsers">
+    <configuration name="DeserializeUsers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InputOutput.DeserializeUsers" />
+      <module name="InputOutput" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="InputOutput.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ErrorExceptionEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exception.ErrorExceptionEx" />
       <module name="InputOutput" />
       <extension name="coverage">
         <pattern>
@@ -70,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckedExceptionEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exception.CheckedExceptionEx" />
+    <configuration name="SerializeUsers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InputOutput.SerializeUsers" />
       <module name="InputOutput" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exception.*" />
+          <option name="PATTERN" value="InputOutput.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClassCastExceptionEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exception.ClassCastExceptionEx" />
+    <configuration name="Task5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InputOutput.Task5" />
       <module name="InputOutput" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exception.*" />
+          <option name="PATTERN" value="InputOutput.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,21 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NullPointerExceptionEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exception.NullPointerExceptionEx" />
-      <module name="InputOutput" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Exception.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OutOfMemoryErrorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exception.OutOfMemoryErrorDemo" />
+    <configuration name="UncheckedExceptionEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exception.UncheckedExceptionEx" />
       <module name="InputOutput" />
       <extension name="coverage">
         <pattern>
@@ -124,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ClassCastExceptionEx" />
-        <item itemvalue="Application.ArithmeticExceptionEx" />
-        <item itemvalue="Application.NullPointerExceptionEx" />
-        <item itemvalue="Application.OutOfMemoryErrorDemo" />
-        <item itemvalue="Application.CheckedExceptionEx" />
+        <item itemvalue="Application.DeserializeUsers" />
+        <item itemvalue="Application.UncheckedExceptionEx" />
+        <item itemvalue="Application.ErrorExceptionEx" />
+        <item itemvalue="Application.SerializeUsers" />
+        <item itemvalue="Application.Task5" />
       </list>
     </recent_temporary>
   </component>
@@ -146,8 +142,21 @@
       <workItem from="1693500685881" duration="2107000" />
       <workItem from="1693567000152" duration="2093000" />
       <workItem from="1693569178611" duration="1132000" />
-      <workItem from="1693575581082" duration="5272000" />
+      <workItem from="1693575581082" duration="8667000" />
+      <workItem from="1693590753472" duration="1599000" />
+      <workItem from="1693592401695" duration="3928000" />
+      <workItem from="1693597943537" duration="2000" />
+      <workItem from="1693635457362" duration="3517000" />
     </task>
+    <task id="LOCAL-00001" summary="-">
+      <option name="closed" value="true" />
+      <created>1693583811892</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693583811892</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,5 +172,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="-" />
+    <option name="LAST_COMMIT_MESSAGE" value="-" />
   </component>
 </project>
