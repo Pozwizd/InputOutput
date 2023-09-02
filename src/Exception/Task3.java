@@ -19,8 +19,6 @@ class NullPointerExceptionEx{
     }
 
     public static void main(String[] args) {
-        //    NullPointerException
-
         // 1
         String str = null;
         try {
@@ -86,32 +84,47 @@ class ArrayIndexOutOfBoundsExceptionEx{
 class ClassCastExceptionEx{
     public static void main(String[] args) {
 
-        // 1
-        Object obj = "foo";
-        if (obj instanceof Integer) {
-            Integer i = (Integer) obj;
-        } else {
-            throw new ClassCastException("Объект не является Integer!");
-        }
 
-        // 2
-        if (obj.getClass() == String.class) {
-            String s = (String) obj;
-        } else if (obj.getClass() == Integer.class) {
-            Integer i = (Integer) obj;
-        } else {
-            throw new ClassCastException("Несоответствие типа: " + obj.getClass());
-        }
+        Object obj = "Example";
 
-        // 3
-        if (obj.getClass() == String.class) {
-            String s = (String) obj;
-        } else if (obj.getClass() == Integer.class) {
-            Integer i = (Integer) obj;
-        } else {
-            throw new ClassCastException("Несоответствие типа: " + obj.getClass());
+        try {
+            Integer integer = (Integer) obj;
+            System.out.println(integer);
+        } catch (ClassCastException e){
+            throw new ClassCastException("Несоответствие типа: " + e);
         }
+    }
+}
 
+class OutOfMemoryErrorEx{
+    public static void main(String[] args) {
+        try {
+            int[] array = new int[Integer.MAX_VALUE];
+        } catch (OutOfMemoryError e) {
+            System.out.println("Нехватка памяти при выделении объекта.");
+        }
+    }
+}
+
+class StackOverflowError {
+    public static void recursion() {
+        recursion();
+    }
+
+    public static void main(String[] args) {
+        recursion();
+    }
+}
+
+class ThreadDeathEx{
+    public static void main(String[] args) {
+        Thread t = new Thread(()->{
+            Thread.currentThread().start(); // ThreadDeath
+        });
+        for (int i = 0; i < 10; i++){
+            t.start();
+
+    }
 
     }
 }
