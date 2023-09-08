@@ -62,6 +62,9 @@ class Task1{
 class Task2_3{
 
     public static void main(String[] args) throws IOException {
+
+        File name = new File("uploaded/docs/Task2/users.txt");
+        name.createNewFile();
         Scanner scanner = new Scanner(System.in);
         // 3.2
         File usersFile = new File("uploaded/docs/Task2","users.txt");
